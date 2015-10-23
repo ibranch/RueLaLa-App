@@ -1,9 +1,24 @@
 # RueLaLa-App
 Program to apply for internship at RueLaLa
 
-TODO: Write installation instructions
+Installation/Run Instructions:
 
-Current Status: code works just fine in the IDE, can't run it from the command line at all. Therefore, can't package it up.
+This file runs in Python 2.7
+
+This file depends on the following modules:
+
+- python-twitter
+- oauth-python-twitter
+- oauth
+- simplejson
+ 
+You can install these modules using pip, which is included in the Python 2.7.10 installer. If you do not have pip, download the Python 2.7.10 installer from https://www.python.org/downloads/release/python-2710/ and run it with all options disabled except for pip.
+
+To install using pip, run 'pip install <module name>' from the command line, assuming that the location of your Python install is in your $PATH variable.
+
+After installing the required modules, you can download the TwitterAPI.py file and run 'python TwitterAPI.py' from the command line.
+
+
 
 Notes for RueLaLa Talent Team:
 - I don't use Twitter, personally. I'm fully confident that this code works and it shouldn't blow up given any strange inputs, however apart from basic knowledge of what Twitter is, I don't have much.
