@@ -25,6 +25,6 @@ Notes for RueLaLa Talent Team:
 
 - If I had to do this again, I realize that there is some code that can be factored out. For example, the similarities between searching for a tweet from a person and to a person make those functions such that they should really be one function with a boolean or integer flag set to indicate whether it is a TO or a FROM request
 
-- I also realize that there are some security flaws with this program, notably hardcoding my consumer_key and consumer_secret. I know I could do this with a config file, but to be honest it's getting late and I still have homework to do.
+- I also realize that there are some security flaws with this program, notably hardcoding my consumer_key and consumer_secret. I know I could do this with a config file, but I don't have any experience with those and I'm not sure how reliably I could implement them in a limited amount of time.
  
 - I'm not fully sure how to write unit tests for this... Since the entire functionality of the program requires it to authenticate and interact with Twitter, it seems that automated tests without user input would be difficult to write as they wouldn't be able to authenticate. I understand the importance of testing, and I'd be eager to learn the correct way to test a script such as this one where user interaction is vital to the program. I've tested it with different, strange inputs for a while and I'm confident that there aren't any inputs left that would cause an unhandled exception.
